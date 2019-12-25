@@ -1,0 +1,107 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <title>Register Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="includes/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="includes/main.css" />
+</head>
+
+<body>
+    <!-- <div class="container-fluid header">
+            <div class="row login">
+                    <div class="col-md-12 ">
+                        <div class="offset-md-5 offset-lg-7 pt-3">  offset in md 5 because responsive of ipad
+                            <form action="" method="">
+                                <input type="text" placeholder="User Name" >
+                                <input type="password" placeholder="Password">
+                                <input type="submit" value="Log In" class="submit"/>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div> -->
+
+    <!-- ********************  Start NavBar  *********************************-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <!-- <img src="images/oshine-v15-logo-white.png"/> -->
+            <a class="navbar-brand" href="#"><span id="span1">Exam </span><span id="span2">Project.</span></a>
+
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse  justify-content-center " id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link pl-3 pr-3" href="index.html"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3" href="register.html"> Registration </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3" href="aboutus.html"> About Us </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3" href="contactus.html"> Contact Us </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 pr-3" href="exam.html"> Exam </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ********************  End NavBar  *********************************-->
+
+
+    <!-- ********************  Start Exam Content  *********************************-->
+    <div id="exam">
+        <div class="container">
+
+        </div>
+    </div>
+    <!-- ********************  Start Exam Content  *********************************-->
+    <!-- Start Exam -->
+    
+    <div id="examing" >
+        <div class="container">
+            <h2>Your Degree Is :
+                 <span id='spanDegree'>
+
+                 </span>
+            </h2>
+        </div>
+    <div id="container" class="container examing">
+        
+        <div class="row">
+            <div id="start">Start Quiz!</div>
+            <div id="quiz" style="display: none" class="">
+                <div id="question" class="col-12"></div>
+                <div id="qImg"></div>
+                <div id="choices" class="">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                </div>
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div>
+                <div id="progress"></div>
+            </div>
+            <div id="scoreContainer" style="display: none"></div>
+        </div>
+    </div>
+</div></div>
+    </div>
+    <!-- End Exam -->
+    <script src="includes/jquery-3.3.1.slim.min.js"></script>
+    <script src="includes/bootstrap.bundle.min.js"></script>
+    <script src="includes/script.js"></script>
+</body>
+
+</html>
